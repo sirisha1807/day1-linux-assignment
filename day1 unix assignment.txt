@@ -1,0 +1,136 @@
+1). different types of hackers ?
+
+-> White Hat Hackers:: White hat hackers are types of hackers who’re professionals with expertise in cybersecurity. 
+                       They are authorized or certified to hack the systems.
+                       These White Hat Hackers work for governments or organizations by getting into the system
+
+-> Black Hat Hackers:: Black hat hackers are also knowledgeable computer experts but with the wrong intention.
+                       They attack other systems to get access to systems where they do not have authorized entry.
+                       On gaining entry they might steal the data or destroy the system. 
+
+-> Gray Hat Hackers:: The intention behind the hacking is considered while categorizing the hacker. 
+                      The Gray hat hacker falls in between the black hat hackers and white hat hackers. 
+                      They are not certified, hackers. These types of hackers work with either good or bad intentions. 
+
+-> Script Kiddies:: It is a known fact that half knowledge is always dangerous. The Script Kiddies are amateurs types of hackers in the field of hacking. 
+                    They try to hack the system with scripts from other fellow hackers. They try to hack the systems, networks, or websites.
+
+-> Green Hat Hackers:: Green hat hackers are types of hackers who’re learning the ropes of hacking.
+                       They are slightly different from the Script Kiddies due to their intention. 
+                       The intent is to strive and learn to become full-fledged hackers. They are looking for opportunities to learn from experienced hackers.
+
+-> Blue Hat Hackers:: Blue Hat Hackers are types of hackers who’re similar to Script Kiddies. 
+                      The intent to learn is missing. They use hacking as a weapon to gain popularity among their fellow beings. 
+                      They use hacking to settle scores with their adversaries. 
+                      Blue Hat Hackers are dangerous due to the intent behind the hacking rather than their knowledge.
+
+-> Red Hat Hackers:: Red Hat Hackers are synonymous with Eagle-Eyed Hackers. 
+                     They are the types of hackers who’re similar to white hackers. The red hat hackers intend to stop the attack of black hat hackers. 
+                     The difference between red hat hackers and white hat hackers is in the process of hacking through intention remains the same.
+
+-> State/Nation Sponsored Hackers:: Government appoints hackers to gain information about other countries. 
+                                    These types of hackers are known as State/Nation sponsored hackers.They use their knowledge to gain confidential information from 
+                                    other countries to be well prepared for any upcoming danger to their country.
+
+-> Hacktivist:: These types of hackers intend to hack government websites. They pose themselves as activists, so known as a hacktivist.
+                Hacktivist can be an individual or a bunch of nameless hackers whose intent is to gain access to government websites and networks. 
+                The data gained from government files accessed are used for personal political or social gain.
+
+-> Malicious insider or Whistleblower:: These types of hackers include individuals working in an organization who can expose confidential information. 
+                                        The intent behind the exposure might be a personal grudge with the organization or the individual
+                                        might have come across the illegal activities within the organization.
+
+
+
+
+
+2). different types of attacks ?
+-> Malware:: Malware is a term used to describe malicious software, including spyware, ransomware, viruses, and worms. 
+             Malware breaches a network through a vulnerability, typically when a user clicks a dangerous link or email attachment 
+             that then installs risky software. Once inside the system, malware can do the following:
+
+             > Blocks access to key components of the network (ransomware)
+             > Installs malware or additional harmful software
+             > Covertly obtains information by transmitting data from the hard drive (spyware)
+             > Disrupts certain components and renders the system inoperable
+
+-> Phishing:: Phishing is the practice of sending fraudulent communications that appear to come from a reputable source, usually through email. 
+              The goal is to steal sensitive data like credit card and login information or to install malware on the victim’s machine. 
+              Phishing is an increasingly common cyberthreat.
+
+-> Man-in-the-middle attack:: Man-in-the-middle (MitM) attacks, also known as eavesdropping attacks,
+occur when attackers insert themselves into a two-party transaction. Once the attackers interrupt the traffic, they can filter and steal data.
+Two common points of entry for MitM attacks:
+1. On unsecure public Wi-Fi, attackers can insert themselves between a visitor’s device and the network.
+   Without knowing, the visitor passes all information through the attacker.
+2. Once malware has breached a device, an attacker can install software to process all of the victim’s information. 
+
+-> Denial-of-service attack:: A denial-of-service attack floods systems, servers, or networks with traffic to exhaust resources and bandwidth.
+ As a result, the system is unable to fulfill legitimate requests.Attackers can also use multiple compromised devices to launch this attack.
+ This is known as a distributed-denial-of-service (DDoS) attack.
+
+-> SQL injection:: A Structured Query Language (SQL) injection occurs when an attacker inserts malicious code into a server that uses
+ SQL and forces the server to reveal information it normally would not. An attacker could carry out a SQL injection simply
+ by submitting malicious code into a vulnerable website search box.
+
+-> Zero-day exploit:: 
+A zero-day exploit hits after a network vulnerability is announced but before a patch or solution is implemented.
+Attackers target the disclosed vulnerability during this window of time. 
+Zero-day vulnerability threat detection requires constant awareness.
+
+-> DNS Tunneling:: DNS tunneling utilizes the DNS protocol to communicate non-DNS traffic over port 53.
+ It sends HTTP and other protocol traffic over DNS.There are various, legitimate reasons to utilize DNS tunneling. 
+ there are also malicious reasons to use DNS Tunneling VPN services.
+
+
+
+
+3). interfaces in java ?
+
+-> An interface in Java is a blueprint of a class. It has static constants and abstract methods.
+The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not method body. 
+It is used to achieve abstraction and multiple inheritance in Java.
+
+ you can say that interfaces can have abstract methods and variables. It cannot have a method body.
+ An interface is declared by using the interface keyword. It provides total abstraction;
+ means all the methods in an interface are declared with the empty body, and all the fields are public, static and final by default. 
+ A class that implements an interface must implement all the methods declared in the interface.
+  
+ a class extends another class, an interface extends another interface, but a class implements an interface.
+
+
+4). use of lambda function in java ?
+
+-> It provides a clear and concise way to represent one method interface using an expression. 
+-> It is very useful in collection library. It helps to iterate, filter and extract data from collection.
+-> The Lambda expression is used to provide the implementation of an interface which has functional interface.
+-> It saves a lot of code. In case of lambda expression, we don't need to define the method again for providing the implementation.
+-> we just write the implementation code. Java lambda expression is treated as a function, so compiler does not create .class file.
+-> Lambda expression provides implementation of functional interface. An interface which has only one abstract method is called functional interface. 
+-> Java provides an anotation @FunctionalInterface, which is used to declare an interface as functional interface.
+-> To provide the implementation of Functional interface.
+   Less coding.
+Java lambda expression is consisted of three components.
+1) Argument-list: It can be empty or non-empty as well.
+2) Arrow-token: It is used to link arguments-list and body of expression.
+3) Body: It contains expressions and statements for lambda expression.
+
+
+5) #pragma in c ? 
+The #pragma preprocessor directive is used to provide additional information to the compiler. 
+The #pragma directive is used by the compiler to offer machine or operating-system feature.
+
+Syntax:
+#pragma token  
+Different compilers can provide different usage of #pragma directive.
+
+The turbo C++ compiler supports following #pragma directives.
+#pragma argsused  
+#pragma exit  
+#pragma hdrfile  
+#pragma hdrstop  
+#pragma inline  
+#pragma option  
+#pragma saveregs  
+#pragma startup  
+#pragma warn  
